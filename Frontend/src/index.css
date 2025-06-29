@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'WizardWorld';
+    src: url('./Fonts/WizardWorldSimplified-Kxr7.ttf') format('truetype');
+}
+
+body {
+    font-family: 'WizardWorld';
+    margin: 0;
+    padding: 0;
+    background-color: rgb(39, 39, 64);
+}
+
+.first-text {
+    font-family: 'WizardWorld';
+    color: white;
+}
