@@ -1,0 +1,59 @@
+.text2 {
+	font-family: 'WizardWorld';
+	src: url('../Fonts/WizardWorldSimplified-Kxr7.ttf') format('truetype');
+	font-size: 21px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+.container.big {
+	width: 300px;
+	height: 60px;
+}
+
+.container.medium {
+	width: 265px;
+	height: 60px;
+}
+
+.container.medium2 {
+	width: 290px;
+	height: 60px;
+}
+
+.container.small {
+	width: 171px;
+	height: 60px;
+}
+
+.container.tiny {
+	width: 161px;
+	height: 60px;
+}
+
+.container.tiny2 {
+	width: 194px;
+	height: 41px;
+}
+
+.container.color-white {
+	background-color: white;
+}
+
+.container.text-color-black {
+	color: black;
+}
+
+.container.white:hover {
+	background-color: rgba(125, 125, 125, 0.82);
+	transition: background-color 0.3s;
+}

@@ -1,0 +1,48 @@
+.order-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+.order-form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.order-form-error {
+    color: red;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-label {
+    font-weight: 500;
+    color: white;
+}
+
+.form-input {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-button {
+    margin-top: 10px;
+}

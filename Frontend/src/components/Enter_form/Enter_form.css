@@ -1,0 +1,112 @@
+.enter-container {
+    display: flex;
+    justify-content: center;
+    padding: 165px;
+    background-image: url('/Fon.png');
+    background-size: cover;  
+    background-attachment: fixed;
+}
+
+.enter-card {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0px 50px;
+    padding: 2rem;
+    width: 400px;
+    min-height: 400px;
+    background-color: white;
+    text-align: center;
+}
+
+.divider-one {
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.divider-two {
+    border-top: 1px dashed #ccc;
+    border-bottom: none;
+}
+
+.enter-content {
+    width: 100%;
+}
+
+.enter-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.enter-img {
+    height: 30px;
+    width: auto;
+}
+
+.enter-title {
+    font-family: var(--primary-font);
+    font-size: 30px;
+}
+
+.enter-link {
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    color: gray;
+    text-decoration: none;
+}
+
+.enter-description {
+    text-align: center;
+}
+
+.enter-text {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.enter-form {
+    margin-top: 5px;
+}
+
+.enter-field {
+    border-radius: 35px;
+    padding: 0.8rem;
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-color);
+}
+
+.field-label {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.enter-input {
+    border: none;
+    outline: none;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    padding: 0.3rem 0;
+}
+
+.enter-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.enter-footer {
+    margin-top: 10px;
+}
+
+
+@media (max-width: 480px) {
+    .enter-card {
+        width: 280px; 
+    }
+}

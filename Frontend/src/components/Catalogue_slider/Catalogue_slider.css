@@ -1,0 +1,55 @@
+.rectangle-slider {
+    border: 1px solid rgb(67, 85, 56);
+    border-radius: 0px 25px;
+    margin-right: 40px;
+    width: 270px;
+    height: 430px;
+    background-color: white;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+
+.img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+.img-basket-slider {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.bar .scroll-container {
+    display: flex;
+    max-width: 1210px;
+    margin: 0 auto;
+    overflow: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.bar .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.my-text {
+    margin: 10px 0;
+}
+
+.text-size1 {
+    font-size: 22px;
+}
+
+.text-size2 {
+    font-size: 20px;
+}

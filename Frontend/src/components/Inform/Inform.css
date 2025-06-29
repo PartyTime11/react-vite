@@ -1,0 +1,43 @@
+.inform {
+    display: flex;
+    gap: 50px;
+    padding: 50px 50px;
+    background-image: url('/Fon.png');
+    background-size: cover;  
+}
+
+.inform-img {
+    height: 400px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.text {
+    font-size: 25px;
+    margin: 0;
+}
+
+.bottom {
+    margin-bottom: 20px;
+}
+
+.img-container {
+    display: flex; 
+    justify-content: center;
+}
+
+.inform-img2 {
+    height: 100px;
+    width: auto;
+}
+
+
+@media (max-width: 800px) {
+    .inform {
+        flex-direction: column;
+    }
+    .inform-img {
+        object-fit: cover;
+        height: auto;
+    }
+}

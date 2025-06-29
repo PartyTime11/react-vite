@@ -1,0 +1,104 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    padding: 85px;
+    background-image: url('/Fon.png');
+    background-size: cover;  
+    background-attachment: fixed;
+}
+
+.register-card {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0px 50px;
+    padding: 30px;
+    width: 400px;
+    min-height: 500px;
+    background-color: white;
+    text-align: center;
+}
+
+.divider-one {
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.divider-two {
+    border-top: 1px dashed #ccc;
+    border-bottom: none;
+}
+
+.register-content {
+    width: 100%;
+}
+
+.register-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.img-reg {
+    height: 30px;
+    width: auto;
+}
+
+.register-title {
+    font-size: 30px;
+}
+
+.register-link {
+    font-size: 15px;
+    color: gray;
+    text-decoration: none;
+}
+
+.register-description {
+    text-align: center;
+}
+
+.register-text {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.register-form {
+    margin-top: 5px;
+}
+
+.form-field {
+    border-radius: 35px;
+    padding: 15px;
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.field-label {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    border: none;
+    outline: none;
+    font-family: 'WizardWorld';
+    font-size: 20px;
+    padding: 3px 0;
+}
+
+.register-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 480px) {
+    .register-card {
+        width: 280px; 
+    }
+}

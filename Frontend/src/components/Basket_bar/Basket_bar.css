@@ -1,0 +1,36 @@
+.basket-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(36,31,22);
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.cart-link {
+    position: relative;
+    text-decoration: none;
+}
+
+.img-basket {
+    width: 45px;
+}
+
+.cart-counter {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}

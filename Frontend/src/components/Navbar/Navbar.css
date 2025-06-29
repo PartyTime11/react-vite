@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+.img-basket {
+    width: 45px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: baseline;
+}
+
+.navbar-brand img {
+  height: 50px; 
+  width: auto;
+}
+
+.navbar-brand h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar-brand span {
+    margin-left: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 480px) {
+    .img-harry {
+        height: 30px; 
+    }
+    .navbar-links a {
+    font-size: 10px;
+}
+}

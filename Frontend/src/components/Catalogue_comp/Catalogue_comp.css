@@ -1,0 +1,53 @@
+.catalogue-container-cat {
+    background-image: url('/Fon.png');
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-attachment: fixed;
+    justify-content: center;
+    padding: 30px;
+    min-height: 678px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.rectangle {
+    border: 1px solid rgb(67, 85, 56);
+    border-radius: 0px 25px;
+    width: 270px;
+    height: 430px;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rectangle:hover {
+    border-color: #3c320a;
+    box-shadow: 0 0 0 3px #ef7a06;
+}
+
+.item-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.img-basket_cat {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.item-cost {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.item-sizes {
+    color: #555;
+    margin-bottom: 15px;
+}

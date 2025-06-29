@@ -1,0 +1,74 @@
+.basket-container {
+    background-image: url('/Quiddich.png');
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-attachment: fixed;
+    padding: 20px;
+    min-height: 678px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.background {
+    background-image: url('/Quiddich.png');
+}
+
+.rectangle-basket {
+    border: 1px solid rgb(67, 85, 56);
+    border-radius: 0px 25px;
+    width: 270px;
+    height: 388px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.item-cost {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.item-sizes {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.order-success-message {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.order-success-button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.remove-item {
+    cursor: pointer;
+    color: red;
+    margin-top: 10px;
+}
